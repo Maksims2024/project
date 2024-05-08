@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel='stylesheet' href='style.css'>
+	<title>clash royale project</title>
+	<style>	
+		#cards img{
+			display:none;
+		}
+		#cards input{
+			display:none;
+		}
+		#cards input:checked ~ img{
+			display:block;
+		}
+		#cards label{
+			border: 2px solid black;
+			background-color: gray;
+		}
+		#cards input:checked ~ label{
+			background-color:gray
+		}
+	</style>	
+</head>
+<body>
+<header>
+	<h1>Clash Royale Fan Page</h1>
+</header>
+<nav>
+	<ul>
+		<li><a href="#about">About</a></li>
+		<li><a href="#gameplay">Gameplay</a></li>
+		<li><a href="#cards">Cards</a></li>
+		<li><a href="#community">Community</a></li>
+	</ul>
+</nav>
+<main>
+	<section id="about">
+		<h2>About Clash Royale</h2>
+		<p>Clash Royale — відеогра для мобільних пристроїв жанру
+		стратегії з елементами колекційної карткової гри в реальному часі. </p>
+		<img src="image5.jpg" alt="image clash royale" class="a">
+	</section>
+	
+	<section id="gameplay">
+		<h2>Gameplay</h2>
+		<p>Ігровий процес полягає в тому, що гравці збирають колоди карт, 
+		що предтавляють різних перонажів або заклинання, щоб 
+		атакувати вежі суперника та захищати свої. </p>
+		<img src="2.png" alt="image clash royale">
+	</section>
+	
+	<section id="cards">
+		<h2>Cards</h2>
+		<input type="checkbox" id="i" name="image">
+		<label for ="i">
+			card types
+		</label>
+		<h2>воїни</h2> <img src="a.jpg" alt="image clash royale" width="400px" height="400px"> 
+		<h2>споруди</h2><img src="b.jpg" alt="image clash royale" width="400px" height="600px">
+		<h2>заклинання</h2><img src="c.jpg" alt="image clash royale" width="400px" height="400p">
+	</section>	
+		<p>У Сlash Royale є різні карти зі своїми 
+		унікальними здібнотями та характеристиками. </p>
+		<img src="image3.png" alt="image clash royale" class="b">
+	
+	
+		<section id="community">
+		<h2>Community</h2>
+		<p>Clash Royale має активну спілноту гравців із форумами, групами в соціалних мережах і турнірами.  </p>
+		<img src="4.jpg" alt="image clash royale">
+	</section>
+</main>
+</body>
+</html> 
